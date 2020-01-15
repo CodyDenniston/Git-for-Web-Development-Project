@@ -1,0 +1,92 @@
+https://codepen.io/Swampbrogre/pen/RwNBVjr?editors=0100
+
+1. What is Semantic HTML?
+HTML that is made for meaning rather than style.
+2. What is HTML used for?
+HTML is used to build the basics of a website and present information.
+3. What is an attribute and where do we put it?
+Attributes are used to group html into categories. Attributes are put in the first opening tags 
+4. What is the h1 tag used for? How many times should I use it on a page?
+The h1 tag is used for titles and should only be used once or twice.
+5. Name two tags that have required attributes
+images and links.
+6. What do we put in the head of our HTML document? 
+The header.
+7. What is an id? 
+A very specific attribute for one tag.
+8. What elements can I add an id to? 
+h1-6, divs, p, spans, etc..
+9. How many times can I use the same id on a page? 
+0
+10. What is a class? 
+An attribute that groups similar html together
+11. What elements can I add a class to? 
+p, h1-6, divs, spans, etc...
+12. How many times can I use the same class on a page? 
+As many times as you want
+13. How do I get my link to open in a new tab?
+target="_blank".
+14. What is the alt attribute used for? 
+Alternative text. To render something when the main element cannot be rendered.
+15. How do I reference an id?
+With a #.
+16. What is the difference between a section and a div
+A section represents a group of content of the same theme, whereas a div does not define anything.
+17. What is CSS used for? 
+To style a website.
+18. How to we select an element? Example - every h2 on the page
+h2{
+
+}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A class is used for groups whereas an ID is for one single thing. You may use a class for the color of all of the links on a website, whereas an ID may be used for one link that you want to be a different color than the rest.
+20. How do we select classes in CSS?
+.(classname)
+21. How do we select a p element with a single class of “human””?
+.human p
+22. What is a parent child selector? When would this be useful? 
+a parent child selector is when a selector is in a selector. Its useful for specificity and exemption in your design.
+.sidebar:link{}
+24. What is a pseudo selector?
+An element used for only applying in a specific state.
+25. What do we use the change the spacing between lines?
+Line-height
+26. What do we use to change the spacing between letters?
+letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Uppercase, lowercase, capitalize.
+28. How do I add a 1px border around my div that is dotted and black?
+div{ border: 1px dotted black}
+29. How do I select everything on the page? 
+universal selector *
+30. How do I write a comment in CSS?
+/* */
+31. How do I find out what file I am in, when I am using the command line? 
+pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm <file> it doesnt give you a warning.
+34. Why should I use version control? 
+To keep copies of your code in every stage of its lifecycle.
+35. How often should I commit to github?
+When any major change has happened
+36. What is the command we would use to push our repo up to github? 
+git push 
+37. Walk me through Lambda's git flow. 
+Create or fork your own repo
+Add your TL as a collaborator
+Clone your repo with the "clone or download" button
+in git, go to the directory you want to store your repo
+git clone <repo link>
+cd into the repo with cd <repo-name>
+Make your own branch with git checkout -b "firstname-Lastname"
+git add
+git commit -m
+git push -u origin branch-name
+submit a pull request on github
+change branch to your branch
+click new pull request
+change the base repository to your forked repo
+Add your TL to your reviewers
+Don't merge your own pull request. that is it.
